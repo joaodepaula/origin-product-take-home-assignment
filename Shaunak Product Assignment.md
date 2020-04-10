@@ -5,7 +5,7 @@
 ### Brief
 __Webflow__ is a no-code website builder that empowers designers, web developers, and entrepreneurs to build websites with ease. I used the platform in its early days (2016) but abandoned it because the feature set was lackluster and the tool was cumbersome to use. My excitement has been renewed after "re-discovering" the tool recently after looking for a quick way to create a landing page. After using the platform for the past several months, I believe it is __best web site buildng tool on the market.__
 
-As a part of my analysis, I will focus on the [landscape](#landscape), Webflow's [competitive advantage](#comparison), Webflow's topand proposed solution to a lacking feature.
+As a part of my analysis, I will focus on the [landscape](#landscape), Webflow's [competitive advantage](#comparison), Webflow's [Web Designer](#web-designer) + [CMS Features](#cms), and a [proposed solution](#solution) to a lacking feature.
 ______
 ### <a href="#landscape">The Problem + Landscape</a>
 
@@ -24,7 +24,7 @@ To visualize this comparison, we can focus on the skill level of a user vs the a
 ![Website Building Comparision](./product_comparison.png)
 
 _______
-### Feature Focus 1: Webflow Designer
+### Feature Focus 1: <a href="#web-designer">Webflow Designer</a>
 The web tool provided by Webflow allows users to take control of HTML5, CSS3, and JavaScript in a completely visual canvas. The designer cavas (shown below) translates drag and drop HTML elements like (div, containers, images) with advanced CSS modifiers. Additionally, modified elements or grouped elements can be converted to Symbols to support repeatability and consistancy. The platform also supports a "pared-down" Editor view that be used by less technical users to make basid edits to the website (text, images) without modifying an underlying formatting or functionality.
 
 For my analysis of this feature, I'll be focusing on success metrics as it pertains to the entire Designer view in Webflow and the actions a user might take while building a website.
@@ -38,7 +38,7 @@ For my analysis of this feature, I'll be focusing on success metrics as it perta
 
 ![Image description](./web_editor.png)
 ___
-### Feature Focus 2: CMS
+### Feature Focus 2: <a href="#cms">CMS</a>
 Webflow CMS touts itself as “the world’s first visual content management system,” allowing designers to define the structure and style of their dynamic content without messing with plugins, PHP, or managed databases. Prior to Webflow, users wanting to implement a managed CMS were bound to Wordpress being the their only option. Users are often locked into their theme’s default templates and styles. And so, customizing individual elements like post fields requires either adding third-party plugins or manually rewriting the underlying template files.
 
 Webflow CMS content can be hand-created, imported from a .CSV file, or added through Webflow’s CMS API. Users can then create Collections, or reusable templates for dynamic content types. For example, a website can feature collections of blog posts, authors, clients, projects, products, categories, and so on. Webflow CMS is akin to having all of the upsides of using a database without the need to manage it.
@@ -55,7 +55,7 @@ NOTE: Because this feature is primarily a backend service, I will focus on engag
 <!-- <br />
 - __# of CMS bug tickets__: Another metric of product success is measuring a decreasing number of CMS related bugs month over month. -->
 ____________
-### Product Improvement: Codebase Export Feature
+### Product Improvement: <a href="#solution">Codebase Export Feature</a>
 __Problem__: Webflow advertises that it translates web designs into clean, semantic code that’s ready to publish to the web or hand off to developers. While its internal hosting functionality is known to be quite performant, __the ability of using its exported code is lacking.__ Modern web app architecture patterns value small/modular components that capture functional and visual UI elements. Upon export, the provided code is messy, not organized or modular.
 
 ![Current Code Export Experience](./current_experience.png)
@@ -88,10 +88,10 @@ __Features__:
 ##### KPIs to measure success:
 - __# of component export events vs entire codebase export events__: We can assume that users who are export code are doing so to host or modify the exported code for added functionality. These users are technical. If these users are using the Export React Component feature more than the Entire Codebase Export feature, we can build confidence around its inherent value to developers. __We would expect this metric to increase over time.__
 
-####Wireframe: (Built using Whimsical)
+#### Wireframe: (Built using Whimsical)
 ![Proposed Code Export Experience](./proposed_experience.png)
 
-#####What will be the effect?: 
+##### What will be the effect?: 
 
 Currently, there is no other tool in the market that offers functionality that provides a robust method to create software visually and integrate this into a codebase. By implementing this feature, we could expect many more enterprise/startup software clients to use Webflow as it can directly integrate into their development workflow. This solution would provide a revolutionary leap in the progression of the industry to blend design/development work flows (see. Adobe Muse, Draftbit, Framer, Zeplin, etc)
 
