@@ -75,7 +75,7 @@ Research:
 - https://forum.webflow.com/t/webflow-vs-framer-x/67895/4
 - https://forum.webflow.com/t/best-practices-on-converting-a-webflow-app-to-react/43110
 
-####Proposed Feature Epic: Allow users to export production-ready React components.
+### Proposed Feature Epic: Allow users to export production-ready React components.
 
 __NOTE__: Since I have access to 2 months with 1 designer and 2 engineers, I would like to tackle more than one feature improvement which is why I identified several feature improvements that align with the epic above.
 
