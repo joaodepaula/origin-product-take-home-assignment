@@ -31,9 +31,9 @@ For my analysis of this feature, I'll be focusing on success metrics as it perta
 
 #### KPIs (Success Metrics) :
 - __Project Publish Rate__: A key indicator of success for newly onboarded users is whether they "publish" their website to become public facing. __We would want to see this metric increase over time.__ When hypothesising Webflow's customer funnel, it is structured by generating customer interest, driving signups, driving engagement using the Webflow Designer, and finally getting the user to "publish" their website. The reason the publish rate is important because it validates that a user has explored the Webflow Design feature set and has decided to make the site "publicly" accessible. While a publish event is not paid, features like connecting a custom domain, using Webflow's CMS, and removing Webflow branding is contigent on signing up for a paid account. This KPI is a good indicator for qualifying whether a user might convert to a paid tier.
-<br />
+
 - __# of Symbols/Project__: The symbols functionality is designed to empower users to create reusable components with modifiers available in the Designer Tool. If a particular project implements Symbols (an intermediate implementation feature), it is a good indicator that a user has mastered basic functionality in the tool. __Simply put, an increase in Symbols indicates product mastery of the end user.__ This is incredibly important for a tool thats primary value proposition is providing builders advanced functionality in an easy-to-use format.
-<br />
+
 - __Average Active Session Time Per Publish Event__: A hallmark of the Designer is the ability the tool gives a user to take an idea and make it real, quickly. By measuring the amount of "active" time or time a user spends modifying a project before publishing is a good indicator of the tools ability to aid in the users build/deploy lifecycle. __A decrease in this metric would correlate positively with how well the Designer is helping users ship.__
 
 ![Image description](./web_editor.png)
