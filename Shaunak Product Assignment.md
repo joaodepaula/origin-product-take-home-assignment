@@ -3,7 +3,7 @@
 ![Webflow Hero](./webflow_hero.png)
 
 ### Brief
-__Webflow__ is a no-code website builder that empowers designers, web developers, and entrepreneurs to build websites with ease. I used the platform in its early days (2016) but abandoned it because the feature set was lackluster and the tool was cumbersome to use. My excitement has been renewed after "re-discovering" the tool recently after looking for a quick way to create a landing page. After using the platform for the past several months, I believe it is __best web site buildng tool on the market.__
+__Webflow__ is a no-code website builder that empowers designers, web developers, and entrepreneurs to build websites with ease. I used the platform in its early days (2014) but abandoned it because the feature set was lackluster and the tool was cumbersome to use. My excitement has been renewed after "re-discovering" the tool recently after looking for a quick way to create a landing page. After using the platform for the past several months, I believe it is __best web site buildng tool on the market.__
 
 As a part of my analysis, I will focus on the [landscape](#landscape), Webflow's [competitive advantage](#comparison), Webflow's [Web Designer](#web-designer) + [CMS Features](#cms), and a [proposed solution](#solution) to a lacking feature.
 ______
