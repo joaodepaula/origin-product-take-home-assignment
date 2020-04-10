@@ -50,7 +50,7 @@ Webflow CMS content can be hand-created, imported from a .CSV file, or added thr
 NOTE: Because this feature is primarily a backend service, I will focus on engagement metrics that will help me us determine product success.
 
 - __Average # of POST requests per collection__: A key performance indicator for the CMS feature is the average number of POST requests per collection. The access to the CMS functionality requires an upgraded membership plan which allows the storing of data + access to the CMS API. A direct way to measure the CMS feature would be to explore how often a collection database is being modified. This indicates how often users are interacting with the service (creating, updating, deleting data) and how often CMS information is being accessed by the client (website). __We would expect this metric to increase over time.__
-<br />
+
 - __# of records in CMS per project__: By measuring the number of records in a CMS, a product team would quickly segment users by usage of the service to potentially market additional functionality to manage larger CMS offerings. Currently, Webflow CMS offers a CMS Plan (12 dollars/month for 2000 CMS items) and a Business Plan (36 dollars/month for 10,000 CMS items). By tracking the # of records, it opens the opportunity to drive active users at the CMS Plan level to upgrade to the Business Plan tier. __We would expect this metric to increase over time.__
 <!-- <br />
 - __# of CMS bug tickets__: Another metric of product success is measuring a decreasing number of CMS related bugs month over month. -->
